@@ -29,6 +29,7 @@ namespace UpuGui
         public MainWindow()
         {
             InitializeComponent();
+            saveToFolderDialog=new FolderBrowserDialog();
             openFileDialog = new OpenFileDialog();
             m_ku = new KISSUnpacker();
             m_upu = new UpuConsole();
